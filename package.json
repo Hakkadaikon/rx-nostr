@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "cac": "^6.7.14",
+    "diff-sequences": "^29.6.3",
     "pathe": "^2.0.3",
     "picocolors": "^1.1.1",
     "pretty-format": "^30.2.0",
