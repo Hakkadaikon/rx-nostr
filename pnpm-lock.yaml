@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      acorn:
+        specifier: ^8.15.0
+        version: 8.15.0
       cac:
         specifier: ^6.7.14
         version: 6.7.14
@@ -178,11 +181,6 @@ packages:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
     peerDependencies:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
-
-  acorn@8.11.3:
-    resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
 
   acorn@8.15.0:
     resolution: {integrity: sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==}
@@ -1149,11 +1147,9 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  acorn-jsx@5.3.2(acorn@8.11.3):
+  acorn-jsx@5.3.2(acorn@8.15.0):
     dependencies:
-      acorn: 8.11.3
-
-  acorn@8.11.3: {}
+      acorn: 8.15.0
 
   acorn@8.15.0: {}
 
@@ -1512,8 +1508,8 @@ snapshots:
 
   espree@9.6.1:
     dependencies:
-      acorn: 8.11.3
-      acorn-jsx: 5.3.2(acorn@8.11.3)
+      acorn: 8.15.0
+      acorn-jsx: 5.3.2(acorn@8.15.0)
       eslint-visitor-keys: 3.4.3
 
   esquery@1.5.0:
