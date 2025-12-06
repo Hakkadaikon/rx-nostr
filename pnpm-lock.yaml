@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      picocolors:
+        specifier: ^1.1.1
+        version: 1.1.1
     devDependencies:
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.9.0
@@ -728,6 +732,9 @@ packages:
   path-type@4.0.0:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
+
+  picocolors@1.1.1:
+    resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
   picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
@@ -1766,6 +1773,8 @@ snapshots:
   path-parse@1.0.7: {}
 
   path-type@4.0.0: {}
+
+  picocolors@1.1.1: {}
 
   picomatch@2.3.1: {}
 
